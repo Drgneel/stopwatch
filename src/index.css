@@ -1,0 +1,52 @@
+.centerDiv,
+.headerDiv,
+.footerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  color: #1c89ff;
+}
+.bg-color {
+  background-color: #1c89ff;
+}
+button {
+  margin-right: 10px;
+  border: 2px solid;
+  color: #fff;
+  background-color: #1c89ff;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+#stopWatch p.time {
+  font-size: 50px;
+  color: white;
+  line-height: 10px;
+}
+#stopwatchIcon {
+  width: 50px;
+  height: 50px;
+}
+.stopWatchDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
