@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     let interval;
     if (active && paused === false) {
-      interval = setInterval(incrementFunction, 1);
+      interval = setInterval(incrementFunction, 1000);
     } else {
       clearInterval(interval);
     }
